@@ -18,4 +18,9 @@ public class SeleniumTest  extends BaseTest{
 	public void validateLogoPresenceTest() {
 		System.out.println("Selenium Logo is present");
 	}
+	
+	@Test(priority=4)
+	public void downloadTest() {
+		System.out.println("File download succesfull");
+	}
 }

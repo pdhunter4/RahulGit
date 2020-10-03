@@ -18,6 +18,15 @@ public class RestAPITest  extends BaseTest{
 	public void validateLogoPresenceTest() {
 		System.out.println("Rest API Logo is present");
 	}
+	
+	@Test(priority=4)
+	public void validateLoginAPIFunction() {
+		System.out.println("Rest API Login functionality");
+	}
 
+	@Test(priority=5)
+	public void validateRegisterAPIFunction() {
+		System.out.println("Rest API Registration functionality");
+	}
 
 }

@@ -19,6 +19,15 @@ public class AppiumTest extends BaseTest{
 	public void validateLogoPresenceTest() {
 		System.out.println("Appium Logo is present");
 	}
-
+	
+	@Test(priority=4)
+	public void validateProductsPresentInCart() {
+		System.out.println("Products added to cart succesfully");
+	}
+	
+	@Test(priority=5)
+	public void validateNoOfProductsOnProductPage() {
+		System.out.println("There are 50 products displayed on Products page");
+	}
 
 }
