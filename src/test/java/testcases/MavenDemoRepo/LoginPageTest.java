@@ -19,5 +19,15 @@ public class LoginPageTest extends BaseTest{
 	public void validateLoginPageLogoPresenceTest() {
 		System.out.println("Selenium Logo is present");
 	}
+	
+	@Test(priority=4)
+	public void validateLoginTestWithValidCredentials() {
+		System.out.println("User log in with valid credentials");
+	}
+	
+	@Test(priority=5)
+	public void validateLoginTestWithInValidCredentials() {
+		System.out.println("User is unable to login with invalid credentials");
+	}
 
 }
