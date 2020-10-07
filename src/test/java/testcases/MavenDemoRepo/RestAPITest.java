@@ -28,5 +28,11 @@ public class RestAPITest  extends BaseTest{
 	public void validateRegisterAPIFunction() {
 		System.out.println("Rest API Registration functionality");
 	}
+	
+
+	@Test(priority=6)
+	public void validateProductsAddAPI() {
+		System.out.println("Rest API Products added succesfully");
+	}
 
 }

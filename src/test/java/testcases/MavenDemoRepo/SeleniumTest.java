@@ -23,4 +23,14 @@ public class SeleniumTest  extends BaseTest{
 	public void downloadTest() {
 		System.out.println("File download succesfull");
 	}
+
+	@Test(priority=5)
+	public void fileUploadWithinLimitTest() {
+		System.out.println("File upload within limit is  succesfull");
+	}
+
+	@Test(priority=6)
+	public void fileUploadOutsideLimitTest() {
+		System.out.println("File upload outside limit is succesfull");
+	}
 }
